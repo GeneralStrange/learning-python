@@ -1,6 +1,6 @@
 # Task 1 - Ask for the users name and age, and print the info usging a function
 def say_hello(user_name, user_age):
-    print("Hello " + user_name + ", you are " + str(user_age) + " years old.")
+    print("Hello " + user_name + ", you are " + {str(user_age)} + " years old.")
 
 say_hello(input("Please tell me your name:\n"), input("And also your age:\n"))
 
